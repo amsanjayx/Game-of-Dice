@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <h1>Game of Dice</h1>
+    <h3>Target Score - 30</h3>
+    <label id="one">Player 1 Score</label>
+    <input id="in1" type="number">
+    <br><br>
+    <label id="two">Player 2 Score</label>
+    <input id="in2" type="number"><br><br>
+    <button onclick="play()">Roll the dice!</button>
+    <input id="score" type="text">
+    <br><br>
+    <button onclick="reset()">Play again!</button>
+    <br><br>
+    <p id="out">--result--</p><br>
+</div>
+    <script src="./script.js"></script>
+    <video autoplay muted loop id="myVideo">
+        <source src="https://cdn.videvo.net/videvo_files/video/free/2012-07/large_watermarked/hd1722_preview.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
